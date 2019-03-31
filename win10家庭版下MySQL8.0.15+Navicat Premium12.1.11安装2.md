@@ -2,7 +2,6 @@
 
 > * 安装MySQL
 > * 安装破解版Navicat Premium
-> * Navicat Premium连接MySQL
 
 ## 1.安装MySQL
 > MySQL官网提供两种安装方式：installer和zip，本文仅展示zip安装。[下载地址][1] 
@@ -16,7 +15,7 @@
 ### 1.4在安装包bin文件下运行管理员身份命令cmd
 
 ### 1.5安装：输入mysqld --install
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/15.jpg?token=AuQooeG9Ggks8_6xcDQm8OtJCirHQI3Dks5coHYlwA%3D%3D)
+![](http://sowcar.com/t6/693/1554030431x2890208949.jpg)
 
 ### 1.6在安装根目录下新建一个my-default.ini文件，如果名称为my.ini，mysql可能会启动失败
 >在桌面新建txt文档，写入以下代码
@@ -43,18 +42,18 @@ default-character-set=utf8
 ### 1.7初始化：输入mysqld --initialize
 > 此时安装目录下出现data文件夹，其中的后缀名为.err的文件中包含了之后会使用到的随机密码。
 
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/11.jpg?token=AuQooRo0bS724i9caHzKvQhZy5Jm7Leiks5coHa1wA%3D%3D)
+![](http://sowcar.com/t6/693/1554030201x2728304222.jpg)
 
 ### 1.8启动：输入net start mysql，出现下面图样，启动成功
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/13.jpg?token=AuQooWmOuBkAAuRs98nHP25dHAAz6zAuks5coHXwwA%3D%3D)
+![](http://sowcar.com/t6/693/1554030382x2890174339.jpg)
 
 ### 1.9登录：输入mysql -u root -p ，输入.err文件中的随机密码
 
 ### 1.10更改密码：输入ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '新密码';
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/14.jpg?token=AuQooXdBwc27Kghd6LITfGX6yre6zV0Kks5coHYKwA%3D%3D)
+![](http://sowcar.com/t6/693/1554030411x2890211702.jpg)
 
 ### 1.11验证：输入show databases; 出现如下图样
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/6.jpg?token=AuQooYau8XpvMDZXrgrYTOjYeL-xtR_Sks5coHWywA%3D%3D)
+![](http://sowcar.com/t6/693/1554030533x2890185996.jpg)
 
 ### 1.12输入quit退出，再输入net stop mysql关闭服务器
 
@@ -70,14 +69,14 @@ default-character-set=utf8
 **注：打开注册机前请不要打开navicat，另外请断网进行破解操作**
 
 ### 2.2首先选择patch，再打开navicat
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/2.jpg?token=AuQooWU4mI47yrPR4yz2-mar4XS_Tl86ks5coHUiwA%3D%3D)
+![](http://sowcar.com/t6/693/1554030593x2890174375.jpg)
 
 ### 2.3打开navicat，帮助——>注册
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/3.jpg?token=AuQooabcdFM7HZiPhH4BL9EGhLKIAfWKks5coHVCwA%3D%3D)
+![](http://sowcar.com/t6/693/1554030638x2372232030.jpg)
 > 将生成的注册码填入
 
 ### 2.4点击激活、手动激活
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/4.jpg?token=AuQooZb6VvMBwcu9MfzBrtk_j1ylmdYAks5coHVWwA%3D%3D)
+![](http://sowcar.com/t6/693/1554030681x2372231719.jpg)
 
 ### 2.5注册机手动激活
 > 1.请求码复制到注册机
@@ -85,7 +84,7 @@ default-character-set=utf8
 > 3.将激活码复制到Navicat
 > 4.完成激活
 
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/5.jpg?token=AuQooZ1NCz7J_Rp6dACck7j5qSfM37OQks5coHVzwA%3D%3D)
+![](http://sowcar.com/t6/693/1554030720x2890174339.jpg)
 
 
 
