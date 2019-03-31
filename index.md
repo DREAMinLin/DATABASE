@@ -1,4 +1,4 @@
-# win10家庭版下MySQL8.0.15+Navicat Premium12.1.11安装教程
+# win10家庭版MySQL8.0.15+Navicat Premium12.1.11安装教程
 
 ------
 > * 安装MySQL
@@ -11,7 +11,7 @@
 > MySQL官网提供两种安装方式：installer和zip，本文仅展示zip安装。[下载地址][1] 
 
 ### 1.下载安装包
-！[]（https://github.com/DREAMinLin/Picture/blob/master/1.jpg?raw=true）
+![](https://github.com/DREAMinLin/Picture/blob/master/1.jpg?raw=true)
 
 不用注册、登录，直接选择左下按钮下载：No thanks,just start my download。
 ### 2.解压：生成的文件中不包含data和my-default.ini
@@ -40,14 +40,14 @@ default-character-set=utf8
 ```
 ### 7.初始化：输入mysqld --initialize
 此时安装目录下出现data文件夹，其中的后缀名为.err的文件中包含了之后会使用到的随机密码。
-https://img-blog.csdnimg.cn/20190228155012264.png
+![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/2.jpg?token=AuQooW035ImZVKkhxvdH9aRI1H4NHOOhks5coGcSwA%3D%3D)
 ### 8.启动：输入net start mysql，出现下面图样，启动成功
-https://img-blog.csdnimg.cn/20190228155140973.png
+![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/3.jpg?token=AuQooWNZIX9slx1BnLn8OBUelG7lTllzks5coGZ5wA%3D%3D)
 ### 9.登录：输入mysql -u root -p ，输入.err文件中的随机密码
 ### 10.更改密码：输入ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '新密码';
-https://img-blog.csdnimg.cn/20190228165008731.png
+![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/5.jpg?token=AuQooTWDvQM5VBAGWkQMuk_KdxFXwocDks5coGdYwA%3D%3D)
 ### 11.验证：输入show databases; 出现如下图样
-https://img-blog.csdnimg.cn/20190228165315723.png
+![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/6.jpg?token=AuQooWmXv9wMvsLvpMEOxfu7FTTEWblEks5coGduwA%3D%3D)
 ### 12.输入quit退出，再输入net stop mysql关闭服务器
 
 
