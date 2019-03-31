@@ -63,7 +63,7 @@ default-character-set=utf8
 ## 2.安装Navicat Premium
 
 ### 2.1下载破解版安装包
-![](https://raw.githubusercontent.com/DREAMinLin/Picture/master/1.jpg?token=AuQooRZE-lZZoVs6Y_LN1nHlLFqUFLNFks5coHUMwA%3D%3D)
+![](http://sowcar.com/t6/693/1554020346x1707632075.jpg)
 > 运行.exe文件，安装Navicat
 > 解压.rar文件，运行.exe文件，进行破解
 
